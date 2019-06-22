@@ -1,0 +1,485 @@
+* {
+	margin: 0;
+	padding: 0;
+	background: linear-gradient (to top, #fafafa #fff);
+}
+
+header {
+	width: 100%;
+	height: 90px;
+	background: #fafafa;
+}
+
+/* ------------ Header ------------ */
+
+.logo {
+	background: url(img/logo.png) no-repeat;
+	width: 132px;
+	height: 36px;
+	float: left;
+	margin-left: 198px;
+	margin-top: 27px;
+	text-align: center;
+	line-height: 36px;
+}
+
+.logo a {
+	display: block;
+	text-decoration: none;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.nav {
+	float: left;
+}
+
+.nav li {
+	float: left;
+	list-style: none;
+	margin-right: 40px;
+	margin-top: 38px;
+}
+
+.nav li:first-child {
+	margin-left: 400px;
+}
+
+.nav li:last-child {
+	margin-right: 0;
+}
+
+.nav a {
+	font-family: Open Sans, sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	color: #777;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.nav a:hover {
+	color: #000;
+	transition: 0.4s ease;
+}
+/* ---------------- /Header ------------ */
+
+/* --------------- Main ------------------ */
+
+.slider {
+	background: url(img/main_pic.png) no-repeat center top;
+	width: 100%;
+	height: 380px;
+}
+
+/* ------------------ /Main ------------------- */
+
+/* ------------------- Menu Nav ------------------- */
+
+.wrapper {
+	width: 1150px;
+	height: auto;
+	margin-left: 60px;
+	background: #fff;
+}
+
+.btn {
+	width: 1150px;
+	height: 60px;
+	display: block;
+	margin-top: -30px;
+	background: #fff;
+}
+
+.prev {
+	float: left;
+	width: 163px;
+	height: 60px;
+	border-left: 1px solid #e2e2e2;
+	line-height: 60px;
+	text-align: center;
+}
+
+.prev a {
+	text-transform: uppercase;
+	font-family: Open Sans, sans-serif;
+	font-weight: 700;
+	font-size: 13px;
+	text-decoration: none;
+	color: #000;
+	padding: 20px 37px;
+}
+
+.prev a img {
+	margin-right: 10px;
+}
+
+.prev:hover, .prev a:hover {
+	background: #e2e2e2;
+	color: #fff;
+	transition: 0.4s ease;
+}
+
+.next {
+	float: left;
+	width: 163px;
+	height: 60px;
+	text-align: center;
+	border-left: 1px solid #e2e2e2;
+	border-right: 1px solid #e2e2e2;
+	line-height: 60px;
+}
+
+.next a {
+	text-transform: uppercase;
+	font-family: Open Sans, sans-serif;
+	font-weight: 700;
+	font-size: 13px;
+	text-decoration: none;
+	color: #000;
+	padding: 20px 37px;
+}
+
+.next a img {
+	margin-left: 10px;
+}
+
+.next:hover, .next a:hover {
+	background: #e2e2e2;
+	color: #fff;
+	transition: 0.4s ease;
+}
+
+.show_more {
+	float: right;
+	width: 194px;
+	height: 60px;
+	text-align: center;
+	border-left: 1px solid #e2e2e2;
+	border-right: 1px solid #e2e2e2;
+	line-height: 60px;
+}
+
+.show_more a {
+	text-transform: uppercase;
+	font-family: Open Sans, sans-serif;
+	font-weight: 700;
+	font-size: 13px;
+	text-decoration: none;
+	color: #000;
+	padding: 20px 37px;
+}
+
+.show_more a img {
+	margin-right: 10px;
+}
+
+.show_more:hover, .show_more a:hover {
+	background: #e2e2e2;
+	color: #fff;
+	transition: 0.4s ease;
+}
+
+/* ---------------- Menu Nav --------------------- */
+
+/* ----------------------------- About Product ---------------------- */
+
+.about_product {
+	width: 552px;
+	height: 629px;
+	margin-top: 70px;
+	float: left;
+}
+
+.about_product h1 {
+	font-family: Open Sans, sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	margin-bottom: 10px;
+	letter-spacing: 5px;
+}
+
+.about_product h2 {
+	font-family: Open Sans, sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	margin-bottom: 25px;
+	color: #555;
+}
+
+hr {
+	margin-bottom: 30px;
+}
+
+.data ul {
+	list-style: none;
+}
+
+.data ul li {
+	float: left;
+	margin-right: 65px;
+	margin-bottom: 38px;
+	color: #555;
+	font-family: Open Sans, sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.data ul li:nth-child(3) {
+	margin-right: 0;
+}
+
+.data ul li:last-child {
+	margin-right: 0;
+}
+
+.data ul li a img {
+	margin-right: 6px;
+}
+
+.about_product p {
+	margin-bottom: 58px;
+	font-family: Open Sans, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #777;
+}
+
+.about_product h3 {
+	color: #333;
+	font-family: Open Sans, sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+/* -------- Кнопка Share ------------- */
+
+.button {
+	width: 87px;
+	height: 42px;
+	border-radius: 5px;
+	background: #707070;
+	list-style: none;
+	position: relative;
+}
+
+.button li {
+	text-align: center;
+	line-height: 42px;
+}
+
+.button li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Open Sans, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #fff;
+	letter-spacing: 1px;
+}
+
+.button:hover, .button a:hover {
+	background: none;
+	border: 1px solid #000;
+	color: #000;
+	transition: 0.4s ease;
+}
+
+.button a:hover {
+	border: none;
+}
+
+/* -------------- Выпадающий блок ------------- */
+
+.drop {
+	width: 284px;
+	height: 42px;
+	float: left;
+	list-style: none;
+	background: #707070;
+	margin-top: 3px;
+	border-radius: 5px;
+	position: absolute;
+	left: 100px;
+	bottom: 0px;
+	opacity: 0;
+	transition: 0.5s opacity;
+}
+
+.drop li {
+	float: left;
+	margin-left: 26px;
+	opacity: 1;
+}
+
+.drop:hover .drop li:hover {
+	background: none;
+	opacity: 0.5;
+}
+
+.button:hover .drop {
+	opacity: 1;
+	transition: 0.4s ease;
+}
+
+/* ------------------ /Выпадающий блок ----------------------- */
+
+.photos {
+	float: right;
+	margin-top: 75px;
+}
+
+.photo_mini {
+	margin-top: 10px;
+}
+
+.photo_mini img:first-child {
+	margin-right: 6px;
+}
+
+.photo_mini img:nth-child(2), .photo_mini img:nth-child(3) {
+	margin-right: 6px;
+}
+
+/* ----------------------- /About Product ----------------------- */
+
+/* ------------------- Related Works ------------------------ */
+
+.related_works {
+	text-align: center;
+	margin-top: 140px;
+}
+
+.related_works h1 {
+	font-family: Open Sans, sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	margin-bottom: 36px;
+}
+
+.related_works p {
+	font-size: 14px;
+	font-weight: 400;
+	font-family: Open Sans, sans-serif;
+	text-align: center;
+	color: #777;
+	margin-bottom: 55px;
+}
+
+.rel_wor_img {
+	float: left;
+	margin-bottom: 70px;
+}
+
+.rel_wor_img img {
+	margin-right: 32px;
+}
+
+.rel_wor_img img:last-child {
+	margin-right: 0;
+}
+
+/* ---------------------/Related Works ----------------- */
+
+/* ----------------------- Footer -------------- */
+
+footer {
+	width: 100%;
+	height: auto;
+	background: #fff;
+	border-top: 1px solid #f3f3f3;
+}
+
+.logo1 {
+	width: 132px;
+	height: 35px;
+	background: url(img/logo.png) no-repeat;
+	text-align: center;
+	line-height: 35px;
+	margin-left: 44%;
+	margin-top: 66px;
+	margin-bottom: 45px;
+}
+
+.logo1 a {
+	display: block;
+	text-decoration: none;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	padding: 17px 66px;
+}
+
+/* hr {
+	margin-top: 25px;
+} */
+
+.sprites {
+	height: 60px;
+	margin-left: 275px;
+	line-height: 30px;
+}
+
+.sprites ul {
+	float: left;
+}
+
+.sprites ul li {
+	float: left;
+	list-style: none;
+	margin-left: 80px;
+	/* margin-top: 30px; */
+}
+
+.sprites ul li a img {
+	opacity: 0.6;
+}
+
+.sprites ul li a img:hover {
+	opacity: 1;
+	transition: 0.4s ease;
+}
+
+
+.copyright {
+	height: 90px;
+}
+
+.copyright p {
+	margin-top: 45px;
+	text-align: center;
+	color: #9c9c9c;
+	letter-spacing: 1px;
+	font-family: Roboto, sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+}
+
+.copyright p span {
+	color: #000;
+	text-transform: uppercase;
+	font-family: Roboto, sans-serif;
+	font-weight: 700;
+	font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
